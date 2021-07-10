@@ -55,11 +55,14 @@ def defaltArgument( name, age=10 ):# it is an exampe of defalt argument.
 
 defaltArgument( "from function defalt argument: Abdhu" )
 
-def dictionary(  ):
+def dictionary(  ): # dictionary is a type of argument passing or listing data as list
 
     data ={ "name":"abdhu","place":"omassery","Home":"kallidumpil" }
 
+    
     print( "from dictionary explained function "+data.get( "place" ))
+    """ in dictionary possible to print one selected data through using the keyword 'print( <name>.get( "data" ))"""
+
     print( data )
 
 
