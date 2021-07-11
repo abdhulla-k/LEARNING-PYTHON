@@ -62,7 +62,7 @@ def dictionary(  ): # dictionary is a type of argument passing or listing data a
     
     print( "from dictionary explained function "+data.get( "place" ))
     """ in dictionary possible to print one selected data through using the keyword 'print( <name>.get( "data" ))"""
-
+    
     print( data )
 
 

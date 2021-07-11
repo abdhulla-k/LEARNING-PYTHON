@@ -7,9 +7,14 @@ def substraction( num1, num2 ):
     result = num1 - num2
     return result
 
+def ChequeNegativeOrPositive( num1 ):
+    if num1 < 0:
+        print( "result is negative" )
+    else:
+        print( "result is positive" )
 
 
-choice = int( input("Enter \n 1 for addition \n 2 for substraction" ))
+choice = int( input("Enter \n 1 for addition \n 2 for substraction \n 3 for cheque negative or positive" ))
 
 if choice == 1 :
     
