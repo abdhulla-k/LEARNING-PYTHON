@@ -23,3 +23,9 @@ KeyWordAugumetn( str(20) ,str(10) )
 use that changed short name. the key word 'as' is using for replace the name"""
 import forLoop as n 
 n.sum( 2, 2 )
+
+from calculator import ChequeNegativeOrPositive as k# it is an example of calling only onef function from a module and changing of the name
+k( -1 )
+
+""" there are more libraries available with python to use with module.if you need libraries, you can google about
+that.import and use as your like , eg. platform,etc.."""
