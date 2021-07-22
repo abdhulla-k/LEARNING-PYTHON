@@ -13,11 +13,11 @@ def exicution():
 
 
 
-Button1 = Button(text = "Ok",width = 3, height = 2, bg="red", fg="red" ,command=exicution) # button creation,exicution add.
+Button1 = Button(text = "Ok",width = 3, height = 2,  command=exicution) # button creation,exicution add.
 Label = Label(window,text="let us start")  # label creation.take a look below,called the pack.that must need for work
-Button2 = Button(text = "+",width = 3, height = 2, bg="red", fg="red" ,command=exicution)
+Button2 = Button(text = "+",width = 3, height = 2,command=exicution)
 
-Button1.grid(row=0,column=0)
+Button1.grid(row=0,column=0)  # grid using for custom positioning of buttons.you can arrange buttons as your like.
 Button2.grid(row=1,column=0)
 
 
