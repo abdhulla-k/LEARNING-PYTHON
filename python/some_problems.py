@@ -1,3 +1,5 @@
+import math
+
 # 1. get an input and show it to user
 inputNumber = input('Please enter an number: ')
 print(inputNumber)
@@ -103,5 +105,16 @@ def printPatter(n):
     print(line)
 
 # printPatter(5)
+
+def checkPalindrome():
+  enterdWord = input('enter a word to check is it palindrome: ')
+  for i in range(math.floor(len(enterdWord) / 2)):
+    if(enterdWord[i] != enterdWord[len(enterdWord) - (i + 1)]):
+      print('word is not a palindrom')
+      break
+    
+  print(f"the word {enterdWord} is a palindrome")
+
+# checkPalindrome()
 
 
